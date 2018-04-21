@@ -1,31 +1,17 @@
-CloverCoin árbol de desarrollo
-
-CloverCoin es un punto de venta basado en cryptocurrency.
-
-Proceso de desarrollo de
+¿Que es Wolf CloverCoin?
 ===========================
+WolfcloverCoin mas que una criptomoneda es una plataforma digital que se especializa en el mundo de la era financiera, divisas  y criptomonedas, donde contaremos con CloverCoin, una moneda Segura que se podra obtener de manera facil y enviar sin Fees, nuestra familia espera captar el interés  de una base de miembros leales y habituales  con su amplia variedad de productos, servicios, confiabilidad y seguridad. La empresa planea  ocupar  una posición importante a nivel nacional e internacional, gracias a nuestro equipo calificado y la experiencia en la industria. La gran familia Wolfclover tiene como objetivo ofrecer una herramienta completa que permite crecer ecónomicamente en el mundo de las criptomonedas, porque además de  satisfacer las exigencias de los clientes va en pro de su desarrollo financiero, proporcionando un nivel de ingresos de medio a alto.
 
-A los desarrolladores a trabajar en sus propios árboles, y luego enviar pull requests cuando
-ellos piensan que su función o de la corrección de error está listo.
+Proceso de Compilacion de wallet-qt
+===========================
+git clone https://github.com/WolfClover/clovercoin-source/
+cd clovercoin-source/
+sudo chmod +x Wallet-qt.sh
+./Wallet-qt.sh
 
-El parche será aceptado si existe un amplio consenso de que es un
-buena cosa. Los desarrolladores deben esperar para recrear y volver a enviar los parches
-si no coinciden con los del proyecto convenciones de codificación (ver coding.txt)
-o son controvertidos.
-
-La rama master es regularmente construido y probado, pero no está garantizada
-para ser totalmente estable. Las etiquetas son regularmente creado para indicar nuevas
-la versión estable versiones de CloverCoin.
-
-Característica de las ramas se crean cuando hay nuevas características importantes de ser
-trabajó en varias personas.
-
-De tiempo en tiempo una solicitud de extracción se convertirá en obsoleto. Si esto ocurre, y
-la atracción es que ya no se puede mezclar automáticamente; un comentario en el pull
-se utiliza para emitir una advertencia de cierre. La extracción será cerrado 15 días
-después de la advertencia de que si no se toman medidas por el autor. Tire de solicitudes cerrado
-de esta manera tendrán su correspondiente etiqueta 'estancada'.
-
-Problemas con no comete se le dará una advertencia similar, y se cierra después de
-15 días desde su última actividad. Cuestiones cerrado de esta manera será 
-con la etiqueta 'rancio'.
+Proceso de Compilacion de Wallet-Daemon
+===========================
+git clone https://github.com/WolfClover/clovercoin-source/
+cd clovercoin-source/src/
+sudo chmod +x Wallet-daemon.sh
+./Wallet-daemon.sh
